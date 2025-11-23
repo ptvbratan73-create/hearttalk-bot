@@ -44,7 +44,7 @@ bot.onText(/\/start/, async (msg) => {
   const text =
     "👋 Willkommen bei **HeartTalk**!\n\n" +
     "Schick mir einfach eine Chat-Nachricht oder nutze /analyse und füge den Text an.\n" +
-    "Ich erkenne Ton & Subtext und gebe dir 3 Antwortstile: *locker*, *charmant*, *souverän*.\n\n" +
+    "Ich erkenne Ton & Subtext und gebe dir 4 Antwortstile: *locker*, *charmant*, *souverän*, *klar*.\n\n" +
     "Beispiel: `Sie: Weiß nicht, ob ich heute kann.`";
   await bot.sendMessage(msg.chat.id, text, { parse_mode: "Markdown" });
 });
